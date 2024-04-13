@@ -1,0 +1,27 @@
+:root {
+    
+    --cor-primaria: #ce4c77;
+    --cor-secundaria:
+  #3c75a7;
+    --cor-texto: #ffffff;
+    --fonte-primaria:
+  'Helvetica Neue', sans-serif;
+    --padding-padrao:
+  8px;
+    --margem-padrao: 16px;
+  
+}
+body {
+background-color: var(--cor-primaria);
+}
+h1 {
+color: var(--cor-texto);
+margin: var(--margem-padrao);
+font-size: var(--fonte-primaria);
+}
+p {
+color: var(--cor-texto);
+font-size: var(--fonte-primaria);
+margin: var(--margem-padrao);
+padding: var(--padding-padrao);
+}
